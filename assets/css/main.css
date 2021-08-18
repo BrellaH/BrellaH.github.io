@@ -152,6 +152,8 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		color: #3e3e3e;
 		margin: 0 0 0.75em 0;
+		font-family: 'Dancing Script', cursive;
+		font-family: 'Kaushan Script', cursive;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1697,7 +1699,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #43bff0;
+			background-color: #297796;
 			color: #fff !important;
 		}
 
