@@ -1848,6 +1848,10 @@ input, select, textarea {
 					background-color: #FAFAFA;
 				}
 
+				ul.social li a.fa-envelope-square {
+					background-color: #FAFAFA;
+				}
+
 				ul.social li a.fa-rss {
 					background-color: #F2600B;
 				}
@@ -2442,5 +2446,6 @@ input, select, textarea {
 					#copyright li:first-child {
 						margin-top: 0;
 					}
+					
 
 	}
