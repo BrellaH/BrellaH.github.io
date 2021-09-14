@@ -1,0 +1,10 @@
+html, body{
+    margin: 2vw 5vw;
+    height: 100%
+}
+#current_ingredient_display{
+    background-color: thistle;
+    height: 50%;
+    width: 10vw;
+    float: left;
+}
