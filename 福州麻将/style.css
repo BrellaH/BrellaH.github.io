@@ -1,0 +1,37 @@
+.container{
+    position: relative;
+    margin: 10vh 10vw;
+    height: 80vh;
+    width: 80vw;
+    background-color:khaki;
+}
+
+.won{
+    border-radius: 25%;
+}
+
+
+#top{
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display:block;
+}
+#left{
+    position: absolute;
+    top: 40%;
+    transform: translateY(50%);
+}
+#right{
+    position: absolute;
+    top: 40%;
+    transform: translateY(50%);
+    right: 0;
+}
+
+#bottom{
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%)
+}
