@@ -10,16 +10,25 @@
 </head>
 
 <body>
-    <aside id="current_ingredient_display"></aside>
+    <aside>
+        <div>
+            <ul id="current_ingredient_display">
+            </ul>
+        </div>
+        <div>
+            <form id="ing_submit">
+                <input type="text" id="ing_input" name="ing_input" placeholder="Enter Ingredient Aquí">
+                <button type="submit">Add</button>
+            </form>
+        </div>
+    </aside>
 
-    <input type="text" id="ing" name="ing" placeholder="Enter Ingredient Aquí">
-    <button type="submit" id="add_button" onClick="addIngredient()">Add</button>
-    <button type="submit" id="del_button" onClick="deleteIngredient()">Delete</button>
 
-    <div>
-        <button id="browse_recipe_button">Browse Recipe</button>
-    </div>
-
+    <main>
+        <div>
+            <button id="browse_recipe_button">Browse Recipe</button>
+        </div>
+    </main>
     <script src="assets/js/main.js"></script>
 </body>
 
