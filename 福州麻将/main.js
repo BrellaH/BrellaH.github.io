@@ -17,7 +17,7 @@ players.addEventListener("click", function (event) {
 
     if (event.target.nodeName === "BUTTON" && event.target.className === "name") {
         let name = prompt("Enter name of this player: ")
-        if (name !== "") {
+        if (name != "") {
             event.target.innerText = name;
         }
     }
